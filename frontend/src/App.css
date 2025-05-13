@@ -1,0 +1,11 @@
+.chat-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Ajoutez ceci temporairement pour voir les composants */
+.ConversationList, .MessageList {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 50%;
+}

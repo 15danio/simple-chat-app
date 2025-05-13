@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #2b0047;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-panel h1 {
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+
+.bubble-icons {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: white;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel h2 {
+  margin-bottom: 30px;
+  color: #2b0047;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: #eee;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2b0047;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #3e006e;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  color: #2b0047;
+  text-decoration: none;
+}
